@@ -1,3 +1,5 @@
+<div class="container">
+   <h2 class="text-center">A Todo App in Angular</h2>
 <app-add-todo (todoAdd)="AddTodo($event)" ></app-add-todo>
 <h4>Yours Todo</h4>
 <div *ngIf="this.todos.length==0; else elseBlock">No todos to show.</div>
@@ -10,4 +12,4 @@
 </ng-template>
 
 
-
+</div>
